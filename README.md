@@ -118,9 +118,10 @@ cores = [0, 10, 20, 30]
 Os pontos médios seriam:
 
 ```text
+
 0 ---- 5 ---- 10 ---- 15 ---- 20 ---- 25 ---- 30
-      ↑             ↑             ↑
-    limite         limite        limite
+       ↑               ↑               ↑
+     limite         limite           limite
 ```
 
 Assim, cada intervalo determina qual cor base deve representar os valores daquela região.
