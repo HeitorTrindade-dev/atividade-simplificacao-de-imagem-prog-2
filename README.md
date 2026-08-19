@@ -77,7 +77,7 @@ Como `4` é menor que `5`, ele está mais próximo de `0`.
 Portanto:
 
 ```text
-4 → 0
+4 vira 0
 ```
 
 ---
@@ -100,7 +100,7 @@ Como `7` é maior que `5`, mas ainda é menor que `10`, ele está mais próximo 
 Portanto:
 
 ```text
-7 → 10
+7 vira 10
 ```
 
 ---
@@ -159,14 +159,13 @@ e que as cores base sejam:
 Como `73` está mais próximo de `84` do que de `42`:
 
 ```text
-73 → 84
+73 vira 84
 ```
 
 Então:
 
 ```c
-matriz_simplificada[i][j] =
-    descobrirCorMaisProxima(matriz_original[i][j]);
+matriz_simplificada[i][j] = descobrirCorMaisProxima(matriz_original[i][j]);
 ```
 
 Esse processo é repetido para **todos os elementos da matriz**, produzindo uma nova matriz contendo apenas as cores base escolhidas.
